@@ -80,7 +80,7 @@ My work centers on backend engineering, intelligent automation, and developer to
 <br/>
 
 <a href="https://github.com/vijaym2k6/NAVIRA">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=NAVIRA&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9" alt="NAVIRA"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=NAVIRA&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d" alt="NAVIRA"/>
 </a>&nbsp;&nbsp;
 <a href="https://github.com/vijaym2k6/DroneGuard-AI">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=DroneGuard-AI&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9" alt="DroneGuard-AI"/>
