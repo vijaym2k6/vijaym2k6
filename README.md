@@ -126,8 +126,7 @@ My work centers on backend engineering, intelligent automation, and developer to
 
 <br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vijaym2k6&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9&ring_color=238636" alt="GitHub Stats"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=vijaym2k6&theme=github-dark-blue&hide_border=true&background=0D1117&ring=238636&fire=238636&currStreakLabel=58A6FF" alt="GitHub Streak"/>
+<img width="55%" src="https://github-readme-stats.vercel.app/api?username=vijaym2k6&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=c9d1d9&ring_color=238636" alt="GitHub Stats"/>
 
 <br/><br/>
 
@@ -136,10 +135,6 @@ My work centers on backend engineering, intelligent automation, and developer to
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vijaym2k6&bg_color=0d1117&color=58a6ff&line=238636&point=58a6ff&area=true&area_color=238636&hide_border=true" width="95%" alt="Activity Graph"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=vijaym2k6&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
 
 <br/>
 
