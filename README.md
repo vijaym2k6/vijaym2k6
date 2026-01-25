@@ -80,7 +80,7 @@ Real-time waste classification system powered by YOLOv8 with DeepSORT tracking. 
 | Category | Technologies |
 |----------|-------------|
 | **Languages** | Python, JavaScript, TypeScript |
-| **Backend** | FastAPI, Express.js, Node.js |
+| **Backend** | FastAPI, Python services, REST APIs |
 | **AI/ML** | OpenAI, Azure AI Services, YOLOv8, MediaPipe |
 | **Cloud** | Azure (Functions, Cosmos DB, Key Vault, Monitor) |
 | **Frontend** | React, Three.js, TailwindCSS |
