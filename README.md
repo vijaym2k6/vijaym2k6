@@ -17,7 +17,7 @@
 
 I'm an undergraduate studying Computer Science (AIML) with a focus on building **AI-powered systems that solve real problems**. My work centers on backend engineering, intelligent automation, and developer tooling—with an emphasis on reliability, safety, and clean architecture.
 
-I don't build demos. I build systems that are meant to run.
+I focus on building systems designed to run reliably, not just exist as demos.
 
 ---
 
@@ -41,7 +41,7 @@ I don't build demos. I build systems that are meant to run.
 #### [NAVIRA](https://github.com/vijaym2k6/NAVIRA)
 Cognitive Digital Autonomy Engine designed to convert human intent into safe, explainable task completion across real systems. Built with Azure-native infrastructure, enterprise security constraints, and production-ready architecture.
 
-`Python` `Azure` `GPT-4` `Cosmos DB`
+`Python` `Azure` `LLM-based planning` `Cosmos DB`
 
 </td>
 <td width="50%">
@@ -80,7 +80,7 @@ Real-time waste classification system powered by YOLOv8 with DeepSORT tracking. 
 | Category | Technologies |
 |----------|-------------|
 | **Languages** | Python, JavaScript, TypeScript |
-| **Backend** | FastAPI, Express.js, Node.js |
+| **Backend** | Backend | FastAPI, Express.js, Node.js |
 | **AI/ML** | OpenAI, Azure AI Services, YOLOv8, MediaPipe |
 | **Cloud** | Azure (Functions, Cosmos DB, Key Vault, Monitor) |
 | **Frontend** | React, Three.js, TailwindCSS |
@@ -98,7 +98,7 @@ Real-time waste classification system powered by YOLOv8 with DeepSORT tracking. 
 
 <div align="center">
 
-*I write code that ships, documentation that helps, and systems that don't break at 2 AM.*
+*I write code that ships, documentation that helps, and systems designed to be dependable.*
 
 [![Email](https://img.shields.io/badge/Contact-vijaym2k6@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:vijaym2k6@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-vijaym2k6-181717?style=flat&logo=github&logoColor=white)](https://github.com/vijaym2k6)
