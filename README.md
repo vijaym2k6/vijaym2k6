@@ -29,27 +29,18 @@
 
 <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="250px" alt="Developer GIF"/>
 
-<br/>
+I'm an undergraduate studying **Computer Science (AIML)** with a focus on building **AI-powered systems that solve real problems**.
 
-```python
-class VijayM:
-    def __init__(self):
-        self.name = "Vijay M"
-        self.role = "CS Undergrad (AIML)"
-        self.focus = ["AI Systems", "Backend Engineering", "Developer Tools"]
-        self.building = "Systems designed to run reliably"
-        self.goal = "Google Summer of Code 2026"
-    
-    def current_work(self):
-        return {
-            "🧠": "Cognitive Autonomy Engines",
-            "🛡️": "AI-Powered Security Systems", 
-            "🔧": "Developer Infrastructure"
-        }
-    
-    def philosophy(self):
-        return "Ship code that works. Write docs that help."
-```
+My work centers on backend engineering, intelligent automation, and developer tooling — with an emphasis on reliability, safety, and clean architecture.
+
+**🧠 Currently working on:**
+- Cognitive Autonomy Engines
+- AI-Powered Security Systems
+- Developer Infrastructure & Tooling
+
+**🎯 Goal:** Google Summer of Code 2026
+
+**💡 Philosophy:** Ship code that works. Write docs that help.
 
 <br clear="both"/>
 
