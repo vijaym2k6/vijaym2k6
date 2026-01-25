@@ -15,7 +15,7 @@
 
 ### About
 
-I'm an undergraduate studying Computer Science (AIML) with a focus on building **AI-powered systems that solve real problems**. My work centers on backend engineering, intelligent automation, and developer tooling—with an emphasis on reliability, safety, and clean architecture.
+I'm an undergraduate studying Computer Science (AIML) at PES University with a focus on building **AI-powered systems that solve real problems**. My work centers on backend engineering, intelligent automation, and developer tooling—with an emphasis on reliability, safety, and clean architecture.
 
 I focus on building systems designed to run reliably, not just exist as demos.
 
