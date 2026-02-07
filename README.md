@@ -104,30 +104,58 @@ Currently: **Preparing for GSoC 2026** | Contributing to open-source AI tooling
 
 <br/>
 
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 <!-- NAVIRA - FLAGSHIP PROJECT -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
+<table>
+<tr>
+<td>
+
+<div align="center">
+
+### 🧠 NAVIRA — Cognitive Digital Autonomy Engine
+
+<br/>
+
 <a href="https://github.com/vijaym2k6/NAVIRA">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=NAVIRA&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=bf91f3&text_color=c9d1d9&border_radius=15" width="400"/>
+<img src="https://img.shields.io/badge/🔗_EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logoColor=white" alt="Explore"/>
 </a>
 
 </div>
 
+<br/>
+
 <table>
 <tr>
-<td width="50%">
-
-### 🧠 NAVIRA
-**Cognitive Digital Autonomy Engine**
+<td width="55%" valign="top">
 
 > *"When intent meets execution, reasoning comes first."*
 
-**The Problem:** Most AI assistants are reactive black boxes. They act without explaining, fail without recovery, and scale without safety.
+**🔴 The Problem**
 
-**The Solution:** A cognitive pipeline that **reasons before acting** — converting ambiguous human intent into safe, explainable, auditable task execution.
+Most AI assistants are reactive black boxes. They:
+- Act without explaining why
+- Fail without recovery mechanisms  
+- Scale without safety considerations
+
+**🟢 The Solution**
+
+A cognitive pipeline that **reasons before acting** — converting ambiguous human intent into safe, explainable, auditable task execution.
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![OpenAI](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 </td>
-<td width="50%">
+<td width="45%" valign="top">
+
+**⚙️ Architecture**
 
 ```
         ┌─────────────┐
@@ -148,55 +176,60 @@ Currently: **Preparing for GSoC 2026** | Contributing to open-source AI tooling
     └──────────────────────┘
 ```
 
+**✅ Key Features**
+- Reasoning transparency before action
+- Risk-aware execution planning
+- Production-ready core architecture
+
 </td>
 </tr>
 </table>
 
-<div align="center">
-
-`Python` `Azure` `LLMs` `Cosmos DB` `Production-Ready Core`
-
-[![Explore NAVIRA](https://img.shields.io/badge/→_Explore_Repository-58a6ff?style=for-the-badge)](https://github.com/vijaym2k6/NAVIRA)
+</td>
+</tr>
+</table>
 
 </div>
 
 <br/>
 
-<!-- DIVIDER -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
-<!-- OTHER FLAGSHIP SYSTEMS -->
-<div align="center">
-
-<a href="https://github.com/vijaym2k6/DroneGuard-AI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=DroneGuard-AI&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=bf91f3&text_color=c9d1d9&border_radius=15" width="400"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=Jarvis-Neural-Interface-AI&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=bf91f3&text_color=c9d1d9&border_radius=15" width="400"/>
-</a>
-
-</div>
-
-<br/>
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- DroneGuard-AI & Jarvis Neural Interface -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <table>
 <tr>
-<td width="50%">
+
+<!-- DroneGuard-AI -->
+<td width="50%" valign="top">
+
+<div align="center">
 
 ### 🛡️ DroneGuard-AI
+
 **Autonomous Cybersecurity System**
 
-GPS spoofing can crash drones. Single-source verification is fundamentally broken.
+<a href="https://github.com/vijaym2k6/DroneGuard-AI">
+<img src="https://img.shields.io/badge/🔗_VIEW_REPO-161b22?style=for-the-badge" alt="View"/>
+</a>
 
-**Solution:** Multi-sensor fusion that cross-validates GPS against IMU, barometric, and visual odometry data — detecting and neutralizing spoofing in real-time.
+</div>
 
-`Python` `FastAPI` `React` `WebSocket` `Real-Time`
+<br/>
+
+**� Problem:** GPS spoofing can crash drones. Single-source verification is fundamentally broken.
+
+**🟢 Solution:** Multi-sensor fusion that cross-validates GPS against IMU, barometric, and visual odometry — detecting spoofing in real-time.
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logoColor=white)
 
 <details>
-<summary><b>View Architecture</b></summary>
+<summary><b>⚙️ View Architecture</b></summary>
 
 ```
   GPS   IMU   BARO   VIO
@@ -215,22 +248,38 @@ GPS spoofing can crash drones. Single-source verification is fundamentally broke
 
 </details>
 
-[![View](https://img.shields.io/badge/→_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/DroneGuard-AI)
-
 </td>
-<td width="50%">
+
+<!-- Jarvis Neural Interface -->
+<td width="50%" valign="top">
+
+<div align="center">
 
 ### 🖐️ Jarvis Neural Interface
+
 **Gesture-Controlled 3D Visualization**
 
-Neural network architectures are complex. Static diagrams don't cut it.
+<a href="https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI">
+<img src="https://img.shields.io/badge/🔗_VIEW_REPO-161b22?style=for-the-badge" alt="View"/>
+</a>
 
-**Solution:** Real-time hand gesture control of 3D neural network visualizations via MediaPipe — explore topology naturally in space.
+</div>
 
-`React` `Three.js` `MediaPipe` `WebGL`
+<br/>
+
+**🔴 Problem:** Neural network architectures are complex. Static diagrams don't cut it.
+
+**🟢 Solution:** Real-time hand gesture control of 3D neural network visualizations via MediaPipe — explore topology naturally.
+
+<br/>
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
 
 <details>
-<summary><b>View Architecture</b></summary>
+<summary><b>⚙️ View Architecture</b></summary>
 
 ```
      CAMERA
@@ -251,39 +300,60 @@ Neural network architectures are complex. Static diagrams don't cut it.
 
 </details>
 
-[![View](https://img.shields.io/badge/→_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI)
-
 </td>
 </tr>
 </table>
 
 <br/>
 
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- WasteVision-AI -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
+<table>
+<tr>
+<td>
+
+<div align="center">
+
+### ♻️ WasteVision-AI — Real-Time Waste Classification
+
+<br/>
+
 <a href="https://github.com/vijaym2k6/WasteVision-AI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=vijaym2k6&repo=WasteVision-AI&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=bf91f3&text_color=c9d1d9&border_radius=15" width="400"/>
+<img src="https://img.shields.io/badge/🔗_EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logoColor=white" alt="Explore"/>
 </a>
 
 </div>
 
+<br/>
+
 <table>
 <tr>
-<td width="60%">
+<td width="60%" valign="top">
 
-### ♻️ WasteVision-AI
-**Real-Time Waste Classification Pipeline**
+**🔴 Problem:** Manual waste sorting is slow and error-prone. Existing CV systems lack persistent tracking.
 
-Manual waste sorting is slow and error-prone. Existing CV systems lack persistent tracking.
+**🟢 Solution:** YOLOv8 detection + DeepSORT tracking for continuous object identification — classifies and tracks waste in real-time.
 
-**Solution:** YOLOv8 detection + DeepSORT tracking for continuous object identification across video frames — classifies and tracks waste in real-time.
+<br/>
 
-`Python` `YOLOv8` `DeepSORT` `OpenCV`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
+![DeepSORT](https://img.shields.io/badge/DeepSORT-FF6F00?style=flat-square&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-[![View](https://img.shields.io/badge/→_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/WasteVision-AI)
+**✅ Key Features**
+- Real-time multi-class detection
+- Persistent ID tracking across frames
+- Optimized for embedded deployment
 
 </td>
-<td width="40%">
+<td width="40%" valign="top">
+
+**⚙️ Pipeline**
 
 ```
   Video Stream
@@ -308,6 +378,12 @@ Manual waste sorting is slow and error-prone. Existing CV systems lack persisten
 </tr>
 </table>
 
+</td>
+</tr>
+</table>
+
+</div>
+
 <br/>
 
 <!-- STATS SECTION -->
@@ -321,16 +397,23 @@ Manual waste sorting is slow and error-prone. Existing CV systems lack persisten
 
 <br/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vijaym2k6&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=vijaym2k6&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+<!-- Using alternative stats services that are more reliable -->
+<a href="https://github.com/vijaym2k6">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=vijaym2k6&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=vijaym2k6&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0d1117"/>
+</a>
 
 <br/><br/>
 
+<!-- Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vijaym2k6&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Timeline" width="98%" alt="Activity Graph"/>
 
 <br/><br/>
 
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijaym2k6&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+<!-- GitHub Streak - using correct URL -->
+<a href="https://github.com/vijaym2k6">
+  <img src="https://streak-stats.demolab.com?user=vijaym2k6&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak"/>
+</a>
 
 </div>
 
@@ -353,32 +436,40 @@ Manual waste sorting is slow and error-prone. Existing CV systems lack persisten
 <table>
 <tr>
 <td align="center" width="25%">
+<br/>
 <img src="https://img.shields.io/badge/🔒-0d1117?style=for-the-badge" alt="Safety"/>
 <br/><br/>
 <b>Safety First</b>
 <br/>
 <sub>Risk evaluation before execution.<br/>Systems fail gracefully.</sub>
+<br/><br/>
 </td>
 <td align="center" width="25%">
+<br/>
 <img src="https://img.shields.io/badge/🔍-0d1117?style=for-the-badge" alt="Explainability"/>
 <br/><br/>
 <b>Explainability</b>
 <br/>
 <sub>Every decision has a reason.<br/>No black boxes in prod.</sub>
+<br/><br/>
 </td>
 <td align="center" width="25%">
+<br/>
 <img src="https://img.shields.io/badge/⚡-0d1117?style=for-the-badge" alt="Reliability"/>
 <br/><br/>
 <b>Reliability</b>
 <br/>
 <sub>Survives edge cases.<br/>Not just happy paths.</sub>
+<br/><br/>
 </td>
 <td align="center" width="25%">
+<br/>
 <img src="https://img.shields.io/badge/📚-0d1117?style=for-the-badge" alt="Documentation"/>
 <br/><br/>
 <b>Documentation</b>
 <br/>
 <sub>If it's not documented,<br/>it doesn't exist.</sub>
+<br/><br/>
 </td>
 </tr>
 </table>
@@ -396,7 +487,7 @@ Manual waste sorting is slow and error-prone. Existing CV systems lack persisten
 
 <br/>
 
-<!-- CONTRIBUTION SNAKE -->
+<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <br/>
@@ -427,7 +518,8 @@ If you're working on something that needs to **scale past demos**, let's talk.
 
 <br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=I%20care%20about%20correctness%2C%20safety%2C%20and%20systems%20that%20scale%20past%20demos.&author=Engineering%20Philosophy" alt="Quote"/>
+*I care about correctness, safety, and systems that scale past demos.*  
+*If something ships, it should survive reality.*
 
 <br/>
 
