@@ -16,7 +16,7 @@
 
 <br/>
 
-<!-- SOCIAL BADGES WITH HOVER EFFECT -->
+<!-- SOCIAL BADGES -->
 <a href="https://www.linkedin.com/in/vijay-m-7a0975346">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>&nbsp;
@@ -29,15 +29,13 @@
 
 <br/><br/>
 
-<!-- PROFILE VIEWS COUNTER -->
 <img src="https://komarev.com/ghpvc/?username=vijaym2k6&style=for-the-badge&color=0d1117&labelColor=161b22&label=PROFILE+VIEWS" alt="Profile Views"/>
 
 </div>
 
-<!-- ANIMATED WAVE DIVIDER -->
+<!-- WAVE DIVIDER -->
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%"/>
 
-<!-- ABOUT SECTION -->
 <br/>
 
 <div align="center">
@@ -60,7 +58,7 @@ Currently: **Preparing for GSoC 2026** | Contributing to open-source AI tooling
 
 <br/>
 
-<!-- TECH STACK ANIMATED ICONS -->
+<!-- TECH STACK -->
 <div align="center">
 
 ## ⚡ &nbsp;Tech Arsenal
@@ -88,219 +86,113 @@ Currently: **Preparing for GSoC 2026** | Contributing to open-source AI tooling
 
 <br/>
 
-<!-- GRADIENT DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- FEATURED SYSTEMS - COMPLETELY REDESIGNED -->
+<!-- FEATURED SYSTEMS - ULTRA CONCISE -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 ## 🚀 &nbsp;Featured Systems
 
-*Production-grade architectures, not side projects.*
-
 </div>
 
 <br/>
 
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-<!-- PROJECT 1: NAVIRA -->
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
 
-### 🧠 &nbsp;NAVIRA
+### 🧠 NAVIRA
 
 **Cognitive Digital Autonomy Engine**
 
-<br/>
+Converts human intent into safe, explainable task execution through reasoning-first AI pipeline.
+
+```
+Intent → Parse → Risk Evaluate → Plan → Execute
+```
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white)
 
 <a href="https://github.com/vijaym2k6/NAVIRA">
-<img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="Explore"/>
+<img src="https://img.shields.io/badge/→_Repository-58a6ff?style=for-the-badge" alt="View"/>
 </a>
 
-</div>
+</td>
+<td align="center" width="50%">
 
-<br/>
+### �️ DroneGuard-AI
 
-> *"When intent meets execution, reasoning comes first."*
+**GPS Spoof Detection System**
 
-**🔴 The Problem:** Most AI assistants are reactive black boxes — they act without explaining, fail without recovery, and scale without safety.
+Multi-sensor fusion protecting drones from navigation attacks via real-time anomaly detection.
 
-**🟢 The Solution:** A cognitive pipeline that **reasons before acting**, converting ambiguous human intent into safe, explainable, auditable task execution.
-
-**⚙️ How It Works:**
 ```
-Human Intent → Intent Parser → Risk Evaluator → Execution Planner → Explainability Layer
+GPS + IMU + Baro → Fusion → Validate → Defend
 ```
 
-**✨ Key Highlights:**
-- Full reasoning transparency before any action
-- Risk-aware execution with safety guardrails
-- Complete audit trail for every decision
-- Production-ready cognitive architecture
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-<!-- PROJECT 2: DroneGuard-AI -->
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-### 🛡️ &nbsp;DroneGuard-AI
-
-**Autonomous Drone Cybersecurity System**
-
-<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 <a href="https://github.com/vijaym2k6/DroneGuard-AI">
-<img src="https://img.shields.io/badge/VIEW_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="View"/>
+<img src="https://img.shields.io/badge/→_Repository-58a6ff?style=for-the-badge" alt="View"/>
 </a>
 
-</div>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 
-<br/>
+### 🖐️ Jarvis Neural Interface
 
-**🔴 The Problem:** GPS spoofing attacks can hijack drone navigation. Single-source verification is fundamentally vulnerable.
+**Gesture-Controlled 3D Visualization**
 
-**🟢 The Solution:** Multi-sensor fusion that cross-validates GPS against IMU, barometric, and visual odometry data — detecting and neutralizing spoofing in real-time.
+Explore neural network architectures in 3D space using real-time hand gesture control.
 
-**⚙️ How It Works:**
 ```
-GPS + IMU + Barometer + Visual Odometry → Fusion Validator → Anomaly Scoring → Alert / Safe Override
+Camera → MediaPipe → Gestures → Three.js 3D
 ```
 
-**✨ Key Highlights:**
-- Real-time multi-source signal validation
-- Autonomous safe-mode fallback on detection
-- Live WebSocket threat visualization
-- Military-grade sensor disagreement scoring
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logoColor=white)
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-<!-- PROJECT 3: Jarvis Neural Interface -->
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-### 🖐️ &nbsp;Jarvis Neural Interface
-
-**Gesture-Controlled 3D Neural Network Visualization**
-
-<br/>
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logoColor=white)
 
 <a href="https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI">
-<img src="https://img.shields.io/badge/VIEW_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="View"/>
+<img src="https://img.shields.io/badge/→_Repository-58a6ff?style=for-the-badge" alt="View"/>
 </a>
 
-</div>
+</td>
+<td align="center" width="50%">
 
-<br/>
+### ♻️ WasteVision-AI
 
-**🔴 The Problem:** Neural network architectures are complex and multi-dimensional. Static 2D diagrams fail to convey topology.
+**Real-Time Waste Classification**
 
-**🟢 The Solution:** Real-time hand gesture control of 3D neural network visualizations via MediaPipe — explore network architecture naturally in space.
+YOLOv8 detection + DeepSORT tracking for automated waste sorting with persistent object IDs.
 
-**⚙️ How It Works:**
 ```
-Camera Feed → MediaPipe Hands → Gesture Mapper → Three.js 3D Scene
+Video → Detect → Track → Classify
 ```
 
-**✨ Gesture Controls:**
-- ✋ **Open Palm** → Rotate the view
-- ✊ **Closed Fist** → Select a node
-- 🤏 **Pinch** → Zoom in/out
-- 👆 **Point** → Inspect layer details
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-<!-- PROJECT 4: WasteVision-AI -->
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-### ♻️ &nbsp;WasteVision-AI
-
-**Real-Time Waste Classification Pipeline**
-
-<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
 <a href="https://github.com/vijaym2k6/WasteVision-AI">
-<img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="Explore"/>
+<img src="https://img.shields.io/badge/→_Repository-58a6ff?style=for-the-badge" alt="View"/>
 </a>
 
-</div>
-
-<br/>
-
-**🔴 The Problem:** Manual waste sorting is slow, error-prone, and unscalable. Standard CV systems lack persistent object tracking.
-
-**🟢 The Solution:** YOLOv8 detection + DeepSORT tracking for continuous object identification across video frames — classifies and tracks waste in real-time.
-
-**⚙️ How It Works:**
-```
-Video Stream → YOLOv8 Detection → DeepSORT Tracking → Classification + Persistent ID
-```
-
-**✨ Key Highlights:**
-- Real-time multi-class waste detection
-- Persistent object ID tracking across frames
-- High-confidence classification scoring
-- Optimized for embedded/edge deployment
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logoColor=black)
-![DeepSORT](https://img.shields.io/badge/DeepSORT-FF6F00?style=for-the-badge&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
+</td>
+</tr>
+</table>
 </div>
 
 <br/>
@@ -323,12 +215,10 @@ Video Stream → YOLOv8 Detection → DeepSORT Tracking → Classification + Per
 
 <br/><br/>
 
-<!-- Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vijaym2k6&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Timeline" width="98%" alt="Activity Graph"/>
 
 <br/><br/>
 
-<!-- GitHub Streak - Fixed URL -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vijaym2k6&theme=algolia&hide_border=true&background=0D1117" alt="GitHub Streak"/>
 
 </div>
@@ -344,66 +234,35 @@ Video Stream → YOLOv8 Detection → DeepSORT Tracking → Classification + Per
 
 ## 🔮 &nbsp;Engineering Philosophy
 
-</div>
-
 <br/>
 
-<div align="center">
 <table>
 <tr>
 <td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/🔒-0d1117?style=for-the-badge" alt="Safety"/>
-<br/><br/>
-<b>Safety First</b>
-<br/>
-<sub>Risk evaluation before execution.<br/>Systems fail gracefully.</sub>
-<br/><br/>
+🔒<br/><b>Safety First</b><br/><sub>Risk before action</sub>
 </td>
 <td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/🔍-0d1117?style=for-the-badge" alt="Explainability"/>
-<br/><br/>
-<b>Explainability</b>
-<br/>
-<sub>Every decision has a reason.<br/>No black boxes in prod.</sub>
-<br/><br/>
+🔍<br/><b>Explainability</b><br/><sub>No black boxes</sub>
 </td>
 <td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/⚡-0d1117?style=for-the-badge" alt="Reliability"/>
-<br/><br/>
-<b>Reliability</b>
-<br/>
-<sub>Survives edge cases.<br/>Not just happy paths.</sub>
-<br/><br/>
+⚡<br/><b>Reliability</b><br/><sub>Survives edge cases</sub>
 </td>
 <td align="center" width="25%">
-<br/>
-<img src="https://img.shields.io/badge/📚-0d1117?style=for-the-badge" alt="Documentation"/>
-<br/><br/>
-<b>Documentation</b>
-<br/>
-<sub>If it's not documented,<br/>it doesn't exist.</sub>
-<br/><br/>
+📚<br/><b>Documentation</b><br/><sub>Or it doesn't exist</sub>
 </td>
 </tr>
 </table>
-</div>
 
 <br/>
 
-<div align="center">
-
 ```
-                    build → break → understand → document → repeat
+build → break → understand → document → repeat
 ```
 
 </div>
 
 <br/>
 
-<!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <br/>
@@ -415,9 +274,7 @@ Video Stream → YOLOv8 Detection → DeepSORT Tracking → Classification + Per
 
 <br/>
 
-I'm interested in **systems-level open source**, **AI safety**, and **developer infrastructure**.
-
-If you're working on something that needs to **scale past demos**, let's talk.
+Interested in **systems-level open source**, **AI safety**, and **developer infrastructure**.
 
 <br/>
 
@@ -432,14 +289,11 @@ If you're working on something that needs to **scale past demos**, let's talk.
 
 ---
 
-<br/>
-
-*I care about correctness, safety, and systems that scale past demos.*  
 *If something ships, it should survive reality.*
-
-<br/>
 
 </div>
 
-<!-- ANIMATED FOOTER -->
+<br/>
+
+<!-- FOOTER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=150&section=footer&animation=twinkling"/>
