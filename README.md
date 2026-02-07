@@ -93,294 +93,213 @@ Currently: **Preparing for GSoC 2026** | Contributing to open-source AI tooling
 
 <br/>
 
-<!-- FEATURED SYSTEMS - THE MAIN ATTRACTION -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- FEATURED SYSTEMS - COMPLETELY REDESIGNED -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
 ## 🚀 &nbsp;Featured Systems
 
-*These aren't side projects. They're production-grade architectures.*
+*Production-grade architectures, not side projects.*
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- NAVIRA - FLAGSHIP PROJECT -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
+<!-- PROJECT 1: NAVIRA -->
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<table>
-<tr>
-<td>
+### 🧠 &nbsp;NAVIRA
 
-<div align="center">
-
-### 🧠 NAVIRA — Cognitive Digital Autonomy Engine
+**Cognitive Digital Autonomy Engine**
 
 <br/>
 
 <a href="https://github.com/vijaym2k6/NAVIRA">
-<img src="https://img.shields.io/badge/🔗_EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logoColor=white" alt="Explore"/>
+<img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="Explore"/>
 </a>
 
 </div>
 
 <br/>
-
-<table>
-<tr>
-<td width="55%" valign="top">
 
 > *"When intent meets execution, reasoning comes first."*
 
-**🔴 The Problem**
+**🔴 The Problem:** Most AI assistants are reactive black boxes — they act without explaining, fail without recovery, and scale without safety.
 
-Most AI assistants are reactive black boxes. They:
-- Act without explaining why
-- Fail without recovery mechanisms  
-- Scale without safety considerations
+**🟢 The Solution:** A cognitive pipeline that **reasons before acting**, converting ambiguous human intent into safe, explainable, auditable task execution.
 
-**🟢 The Solution**
-
-A cognitive pipeline that **reasons before acting** — converting ambiguous human intent into safe, explainable, auditable task execution.
-
-<br/>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=openai&logoColor=white)
-![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
-</td>
-<td width="45%" valign="top">
-
-**⚙️ Architecture**
-
+**⚙️ How It Works:**
 ```
-        ┌─────────────┐
-        │ Human Intent│
-        └──────┬──────┘
-               ▼
-    ╔══════════════════════╗
-    ║   Intent Parser      ║
-    ╠══════════════════════╣
-    ║   Risk Evaluator     ║
-    ╠══════════════════════╣
-    ║   Execution Planner  ║
-    ╚══════════╤═══════════╝
-               ▼
-    ┌──────────────────────┐
-    │ EXPLAINABILITY LAYER │
-    │   Full Audit Trail   │
-    └──────────────────────┘
+Human Intent → Intent Parser → Risk Evaluator → Execution Planner → Explainability Layer
 ```
 
-**✅ Key Features**
-- Reasoning transparency before action
-- Risk-aware execution planning
-- Production-ready core architecture
+**✨ Key Highlights:**
+- Full reasoning transparency before any action
+- Risk-aware execution with safety guardrails
+- Complete audit trail for every decision
+- Production-ready cognitive architecture
 
-</td>
-</tr>
-</table>
+<div align="center">
 
-</td>
-</tr>
-</table>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![OpenAI](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- DroneGuard-AI & Jarvis Neural Interface -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+---
 
-<table>
-<tr>
+<br/>
 
-<!-- DroneGuard-AI -->
-<td width="50%" valign="top">
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
+<!-- PROJECT 2: DroneGuard-AI -->
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-### 🛡️ DroneGuard-AI
+### 🛡️ &nbsp;DroneGuard-AI
 
-**Autonomous Cybersecurity System**
+**Autonomous Drone Cybersecurity System**
+
+<br/>
 
 <a href="https://github.com/vijaym2k6/DroneGuard-AI">
-<img src="https://img.shields.io/badge/🔗_VIEW_REPO-161b22?style=for-the-badge" alt="View"/>
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="View"/>
 </a>
 
 </div>
 
 <br/>
 
-**� Problem:** GPS spoofing can crash drones. Single-source verification is fundamentally broken.
+**🔴 The Problem:** GPS spoofing attacks can hijack drone navigation. Single-source verification is fundamentally vulnerable.
 
-**🟢 Solution:** Multi-sensor fusion that cross-validates GPS against IMU, barometric, and visual odometry — detecting spoofing in real-time.
+**🟢 The Solution:** Multi-sensor fusion that cross-validates GPS against IMU, barometric, and visual odometry data — detecting and neutralizing spoofing in real-time.
 
-<br/>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logoColor=white)
-
-<details>
-<summary><b>⚙️ View Architecture</b></summary>
-
+**⚙️ How It Works:**
 ```
-  GPS   IMU   BARO   VIO
-   │     │     │      │
-   └─────┴─────┴──────┘
-            │
-   ┌────────▼────────┐
-   │ FUSION VALIDATOR│
-   │ Anomaly Scoring │
-   └────────┬────────┘
-            │
-   ┌────────▼────────┐
-   │ ALERT │ OVERRIDE│
-   └─────────────────┘
+GPS + IMU + Barometer + Visual Odometry → Fusion Validator → Anomaly Scoring → Alert / Safe Override
 ```
 
-</details>
-
-</td>
-
-<!-- Jarvis Neural Interface -->
-<td width="50%" valign="top">
+**✨ Key Highlights:**
+- Real-time multi-source signal validation
+- Autonomous safe-mode fallback on detection
+- Live WebSocket threat visualization
+- Military-grade sensor disagreement scoring
 
 <div align="center">
 
-### 🖐️ Jarvis Neural Interface
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logoColor=white)
 
-**Gesture-Controlled 3D Visualization**
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
+<!-- PROJECT 3: Jarvis Neural Interface -->
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+### 🖐️ &nbsp;Jarvis Neural Interface
+
+**Gesture-Controlled 3D Neural Network Visualization**
+
+<br/>
 
 <a href="https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI">
-<img src="https://img.shields.io/badge/🔗_VIEW_REPO-161b22?style=for-the-badge" alt="View"/>
+<img src="https://img.shields.io/badge/VIEW_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="View"/>
 </a>
 
 </div>
 
 <br/>
 
-**🔴 Problem:** Neural network architectures are complex. Static diagrams don't cut it.
+**🔴 The Problem:** Neural network architectures are complex and multi-dimensional. Static 2D diagrams fail to convey topology.
 
-**🟢 Solution:** Real-time hand gesture control of 3D neural network visualizations via MediaPipe — explore topology naturally.
+**🟢 The Solution:** Real-time hand gesture control of 3D neural network visualizations via MediaPipe — explore network architecture naturally in space.
 
-<br/>
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logoColor=white)
-![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
-
-<details>
-<summary><b>⚙️ View Architecture</b></summary>
-
+**⚙️ How It Works:**
 ```
-     CAMERA
-        │
-        ▼
-   ┌──────────┐
-   │ MediaPipe│
-   │  Hands   │
-   └────┬─────┘
-        │
-   ┌────▼─────┐   ┌──────────┐
-   │ Gesture  │──▶│ Three.js │
-   │  Mapper  │   │ 3D Scene │
-   └──────────┘   └──────────┘
-   
-   ✋ Rotate │ ✊ Select │ 🤏 Zoom
+Camera Feed → MediaPipe Hands → Gesture Mapper → Three.js 3D Scene
 ```
 
-</details>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- WasteVision-AI -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+**✨ Gesture Controls:**
+- ✋ **Open Palm** → Rotate the view
+- ✊ **Closed Fist** → Select a node
+- 🤏 **Pinch** → Zoom in/out
+- 👆 **Point** → Inspect layer details
 
 <div align="center">
 
-<table>
-<tr>
-<td>
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
+<!-- PROJECT 4: WasteVision-AI -->
+<!-- ══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-### ♻️ WasteVision-AI — Real-Time Waste Classification
+### ♻️ &nbsp;WasteVision-AI
+
+**Real-Time Waste Classification Pipeline**
 
 <br/>
 
 <a href="https://github.com/vijaym2k6/WasteVision-AI">
-<img src="https://img.shields.io/badge/🔗_EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logoColor=white" alt="Explore"/>
+<img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-58a6ff?style=for-the-badge&logo=github&logoColor=white" alt="Explore"/>
 </a>
 
 </div>
 
 <br/>
 
-<table>
-<tr>
-<td width="60%" valign="top">
+**🔴 The Problem:** Manual waste sorting is slow, error-prone, and unscalable. Standard CV systems lack persistent object tracking.
 
-**🔴 Problem:** Manual waste sorting is slow and error-prone. Existing CV systems lack persistent tracking.
+**🟢 The Solution:** YOLOv8 detection + DeepSORT tracking for continuous object identification across video frames — classifies and tracks waste in real-time.
 
-**🟢 Solution:** YOLOv8 detection + DeepSORT tracking for continuous object identification — classifies and tracks waste in real-time.
-
-<br/>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
-![DeepSORT](https://img.shields.io/badge/DeepSORT-FF6F00?style=flat-square&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**✅ Key Features**
-- Real-time multi-class detection
-- Persistent ID tracking across frames
-- Optimized for embedded deployment
-
-</td>
-<td width="40%" valign="top">
-
-**⚙️ Pipeline**
-
+**⚙️ How It Works:**
 ```
-  Video Stream
-       │
-       ▼
-  ┌─────────┐
-  │ YOLOv8  │
-  │ Detect  │
-  └────┬────┘
-       │
-  ┌────▼────┐
-  │DeepSORT │
-  │ Track   │
-  └────┬────┘
-       │
-  ┌────▼────────────┐
-  │ ID │ Class │ %  │
-  └──────────────────┘
+Video Stream → YOLOv8 Detection → DeepSORT Tracking → Classification + Persistent ID
 ```
 
-</td>
-</tr>
-</table>
+**✨ Key Highlights:**
+- Real-time multi-class waste detection
+- Persistent object ID tracking across frames
+- High-confidence classification scoring
+- Optimized for embedded/edge deployment
 
-</td>
-</tr>
-</table>
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logoColor=black)
+![DeepSORT](https://img.shields.io/badge/DeepSORT-FF6F00?style=for-the-badge&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
 
@@ -397,7 +316,6 @@ A cognitive pipeline that **reasons before acting** — converting ambiguous hum
 
 <br/>
 
-<!-- Using alternative stats services that are more reliable -->
 <a href="https://github.com/vijaym2k6">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=vijaym2k6&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=vijaym2k6&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0d1117"/>
@@ -410,10 +328,8 @@ A cognitive pipeline that **reasons before acting** — converting ambiguous hum
 
 <br/><br/>
 
-<!-- GitHub Streak - using correct URL -->
-<a href="https://github.com/vijaym2k6">
-  <img src="https://streak-stats.demolab.com?user=vijaym2k6&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak"/>
-</a>
+<!-- GitHub Streak - Fixed URL -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vijaym2k6&theme=algolia&hide_border=true&background=0D1117" alt="GitHub Streak"/>
 
 </div>
 
