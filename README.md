@@ -1,516 +1,281 @@
-<!--
-  ╔══════════════════════════════════════════════════════════════════╗
-  ║                                                                  ║
-  ║   This profile was architected, not templated.                  ║
-  ║                                                                  ║
-  ╚══════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
-```
-╭──────────────────────────────────────────────────────────────────────────────────╮
-│                                                                                  │
-│     ██╗   ██╗██╗     ██╗ █████╗ ██╗   ██╗    ███╗   ███╗                         │
-│     ██║   ██║██║     ██║██╔══██╗╚██╗ ██╔╝    ████╗ ████║                         │
-│     ██║   ██║██║     ██║███████║ ╚████╔╝     ██╔████╔██║                         │
-│     ╚██╗ ██╔╝██║██   ██║██╔══██║  ╚██╔╝      ██║╚██╔╝██║                         │
-│      ╚████╔╝ ██║╚█████╔╝██║  ██║   ██║       ██║ ╚═╝ ██║                         │
-│       ╚═══╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝   ╚═╝       ╚═╝     ╚═╝                         │
-│                                                                                  │
-│                    Systems Engineer · AI Architect · Builder                     │
-│                                                                                  │
-╰──────────────────────────────────────────────────────────────────────────────────╯
-```
+<!-- HERO SECTION -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=Vijay%20M&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Systems%20Engineer%20%E2%80%A2%20AI%20Architect%20%E2%80%A2%20Builder&descSize=18&descAlignY=55&descAlign=50"/>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vijay-m-7a0975346)&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vijaym2k6@gmail.com)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vijaym2k6)
 
 </div>
 
-<br/>
+---
+
+### About
+
+I build **AI-powered systems** that move beyond demos into production reality.
+
+My work focuses on **cognitive autonomy**, **real-time perception**, and **backend infrastructure** — with emphasis on safety, explainability, and systems that hold up under pressure.
+
+Currently preparing for **Google Summer of Code 2026** and contributing to open-source developer tooling.
+
+---
+
+## Featured Systems
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-## `> whoami`
+### 🧠 NAVIRA
+**Cognitive Digital Autonomy Engine**
 
-```yaml
-name: Vijay M
-role: Systems Engineer & AI Architect
-location: Building in the terminal
+Converts ambiguous human intent into safe, explainable task execution through a reasoning-first pipeline.
 
-background:
-  undergraduate_cs: AIML
-  learning_style: build → break → document → repeat
+`Python` `Azure` `LLMs` `Cosmos DB`
 
-focus:
-  - Cognitive Autonomy Systems
-  - AI Safety & Reliability
-  - Backend Infrastructure
-  - Developer Tooling
+<details>
+<summary><b>Architecture</b></summary>
 
-philosophy: |
-  I don't just write code that works—
-  I build systems that hold up under pressure.
-  
-currently:
-  - Preparing for GSoC 2026
-  - Architecting cognitive engines
-  - Contributing to open source
 ```
+User Intent
+    │
+    ▼
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│   Intent    │───▶│    Risk     │───▶│  Execution  │
+│   Parser    │    │  Evaluator  │    │   Planner   │
+└─────────────┘    └─────────────┘    └─────────────┘
+                          │
+                          ▼
+              ┌───────────────────────┐
+              │  Explainability Layer │
+              └───────────────────────┘
+```
+
+**Key Features:**
+- Reasoning transparency before action
+- Risk-aware execution planning
+- Full audit trail for all decisions
+- Production-ready core architecture
+
+</details>
+
+[![View](https://img.shields.io/badge/View_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/NAVIRA)
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-## `> echo $STACK`
+### 🛡️ DroneGuard-AI
+**GPS Spoof Detection & Defense**
 
-```bash
-├── languages/
-│   ├── python        ████████████  primary
-│   ├── typescript    ████████░░░░  secondary
-│   └── javascript    ██████░░░░░░  familiar
-│
-├── frameworks/
-│   ├── fastapi       → backend
-│   ├── react         → frontend
-│   └── three.js      → 3D/viz
-│
-├── ml_stack/
-│   ├── openai_api    → LLM
-│   ├── yolov8        → vision
-│   └── tensorflow    → general
-│
-└── infrastructure/
-    ├── docker        → containers
-    ├── azure         → cloud
-    └── kubernetes    → orchestration
+Multi-sensor fusion system that protects autonomous drones from GPS spoofing attacks through cross-validation.
+
+`Python` `FastAPI` `React` `WebSocket`
+
+<details>
+<summary><b>Architecture</b></summary>
+
+```
+┌─────┐  ┌─────┐  ┌─────┐  ┌─────┐
+│ GPS │  │ IMU │  │BARO │  │ VIO │
+└──┬──┘  └──┬──┘  └──┬──┘  └──┬──┘
+   │        │        │        │
+   └────────┴────┬───┴────────┘
+                 ▼
+        ┌─────────────────┐
+        │ Fusion Validator│
+        │ Anomaly Detect  │
+        └────────┬────────┘
+                 ▼
+   ┌─────────────────────────────┐
+   │ ALERT │ OVERRIDE │ LOG ALL │
+   └─────────────────────────────┘
 ```
 
+**Key Features:**
+- Real-time multi-source validation
+- Autonomous safe-mode fallback
+- Live WebSocket visualization
+- Sensor disagreement scoring
+
+</details>
+
+[![View](https://img.shields.io/badge/View_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/DroneGuard-AI)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🖐️ Jarvis Neural Interface
+**Gesture-Controlled 3D Visualization**
+
+Hand gesture-driven exploration of neural network architectures in real-time 3D space.
+
+`React` `Three.js` `MediaPipe` `WebGL`
+
+<details>
+<summary><b>Architecture</b></summary>
+
+```
+┌─────────────┐     ┌─────────────┐
+│   Camera    │────▶│  MediaPipe  │
+│    Feed     │     │   Hands     │
+└─────────────┘     └──────┬──────┘
+                           │
+                           ▼
+                   ┌─────────────┐
+                   │   Gesture   │
+                   │   Mapper    │
+                   └──────┬──────┘
+                          │
+                          ▼
+                  ┌──────────────┐
+                  │  Three.js    │
+                  │  3D Scene    │
+                  └──────────────┘
+```
+
+**Gesture Controls:**
+- ✋ Open Palm → Rotate View
+- ✊ Closed Fist → Select Node
+- 🤏 Pinch → Zoom
+- 👆 Point → Inspect Layer
+
+</details>
+
+[![View](https://img.shields.io/badge/View_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI)
+
+</td>
+<td width="50%" valign="top">
+
+### ♻️ WasteVision-AI
+**Real-Time Waste Classification**
+
+Computer vision pipeline for automated waste sorting using detection + persistent tracking.
+
+`Python` `YOLOv8` `DeepSORT` `OpenCV`
+
+<details>
+<summary><b>Architecture</b></summary>
+
+```
+Video Frame
+     │
+     ▼
+┌─────────────┐    ┌─────────────┐
+│   YOLOv8    │───▶│  DeepSORT   │
+│  Detection  │    │  Tracking   │
+└─────────────┘    └──────┬──────┘
+                          │
+                          ▼
+              ┌─────────────────────┐
+              │  Classification     │
+              │  + Persistence ID   │
+              └─────────────────────┘
+```
+
+**Key Features:**
+- Real-time object detection
+- Persistent ID tracking across frames
+- Multi-class waste categorization
+- Optimized for embedded deployment
+
+</details>
+
+[![View](https://img.shields.io/badge/View_Repository-161b22?style=flat-square)](https://github.com/vijaym2k6/WasteVision-AI)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technical Focus
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Backend-161b22?style=for-the-badge" alt="Backend"/>
+<br/><br/>
+<b>FastAPI</b> · <b>Flask</b><br/>
+<b>Node.js</b> · <b>WebSocket</b>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/AI%2FML-161b22?style=for-the-badge" alt="AI/ML"/>
+<br/><br/>
+<b>LLMs</b> · <b>YOLOv8</b><br/>
+<b>TensorFlow</b> · <b>MediaPipe</b>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Infrastructure-161b22?style=for-the-badge" alt="Infrastructure"/>
+<br/><br/>
+<b>Docker</b> · <b>Azure</b><br/>
+<b>Kubernetes</b> · <b>CI/CD</b>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Languages-161b22?style=for-the-badge" alt="Languages"/>
+<br/><br/>
+<b>Python</b> · <b>TypeScript</b><br/>
+<b>JavaScript</b>
 </td>
 </tr>
 </table>
 
 <br/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-## `// SYSTEM ARCHITECTURE`
-
-*What I've built isn't a collection of projects—it's an evolving stack of interconnected systems.*
-
-</div>
-
-<br/>
-
-<details open>
-<summary><b>▸ System Overview</b></summary>
-
-<br/>
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                                         │
-│                              [ COGNITIVE LAYER ]                                        │
-│                                                                                         │
-│    ╔═══════════════════════════════════════════════════════════════════════════════╗   │
-│    ║                                                                               ║   │
-│    ║   ┌───────────┐      ┌───────────┐      ┌───────────┐      ┌───────────┐     ║   │
-│    ║   │  NAVIRA   │ ───▶ │  Intent   │ ───▶ │   Task    │ ───▶ │  Action   │     ║   │
-│    ║   │  Engine   │      │  Parser   │      │  Graph    │      │  Executor │     ║   │
-│    ║   └───────────┘      └───────────┘      └───────────┘      └───────────┘     ║   │
-│    ║        │                                                         │            ║   │
-│    ║        │              AI Reasoning & Decision Layer             │            ║   │
-│    ║        │                                                         ▼            ║   │
-│    ║        │         ┌──────────────────────────────────────────────────┐        ║   │
-│    ║        └────────▶│         Explainability & Safety Module           │        ║   │
-│    ║                  └──────────────────────────────────────────────────┘        ║   │
-│    ║                                                                               ║   │
-│    ╚═══════════════════════════════════════════════════════════════════════════════╝   │
-│                                         │                                               │
-│                                         ▼                                               │
-│                              [ PERCEPTION LAYER ]                                       │
-│                                                                                         │
-│    ┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐       │
-│    │                     │    │                     │    │                     │       │
-│    │   DroneGuard-AI     │    │  WasteVision-AI     │    │   Jarvis Neural     │       │
-│    │   ───────────────   │    │  ─────────────────  │    │   Interface         │       │
-│    │   Multi-sensor      │    │  Real-time object   │    │   ─────────────     │       │
-│    │   GPS spoofing      │    │  detection with     │    │   Gesture-based     │       │
-│    │   detection &       │    │  YOLOv8 + tracking  │    │   3D neural         │       │
-│    │   autonomous        │    │  for environmental  │    │   network control   │       │
-│    │   defense system    │    │  classification     │    │   via MediaPipe     │       │
-│    │                     │    │                     │    │                     │       │
-│    └─────────────────────┘    └─────────────────────┘    └─────────────────────┘       │
-│                                                                                         │
-│                              [ INFRASTRUCTURE LAYER ]                                   │
-│                                                                                         │
-│    ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌────────────┐      │
-│    │   Azure    │  │   Docker   │  │  FastAPI   │  │  CosmosDB  │  │ WebSocket  │      │
-│    │   Cloud    │  │ Containers │  │  Backend   │  │  Storage   │  │  Realtime  │      │
-│    └────────────┘  └────────────┘  └────────────┘  └────────────┘  └────────────┘      │
-│                                                                                         │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-</details>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header"/>
-</div>
-
-<br/>
-
-## `// PROJECT DEEP DIVE`
-
 <details>
-<summary><b>▸ NAVIRA</b> — Cognitive Digital Autonomy Engine</summary>
+<summary><b>Engineering Philosophy</b></summary>
+
+<br/>
+
+| Principle | Practice |
+|:----------|:---------|
+| **Safety First** | Risk evaluation before execution. Systems fail gracefully. |
+| **Explainability** | Every decision has a traceable reason. No black boxes in production. |
+| **Reliability** | Code that survives edge cases, not just happy paths. |
+| **Documentation** | If it's not documented, it doesn't exist. |
 
 <br/>
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  NAVIRA — Neural Autonomous Virtual Intelligence & Reasoning Architecture   │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  PROBLEM STATEMENT                                                           │
-│  ─────────────────                                                           │
-│  Most AI assistants are reactive. They wait for explicit commands,           │
-│  lack reasoning transparency, and fail to adapt safely to edge cases.        │
-│                                                                              │
-│  SOLUTION                                                                    │
-│  ────────                                                                    │
-│  NAVIRA converts ambiguous human intent into safe, explainable task          │
-│  completion through a cognitive pipeline that reasons before acting.         │
-│                                                                              │
-│  ARCHITECTURE                                                                │
-│  ────────────                                                                │
-│                                                                              │
-│       User Intent                                                            │
-│            │                                                                 │
-│            ▼                                                                 │
-│     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐                 │
-│     │ Intent      │────▶│ Risk        │────▶│ Execution   │                 │
-│     │ Parser      │     │ Evaluator   │     │ Planner     │                 │
-│     └─────────────┘     └─────────────┘     └─────────────┘                 │
-│                               │                    │                         │
-│                               ▼                    ▼                         │
-│                    ┌────────────────────────────────────┐                   │
-│                    │    Explainability & Audit Layer    │                   │
-│                    └────────────────────────────────────┘                   │
-│                                                                              │
-│  TECH                                Python · Azure · LLMs · Cosmos DB       │
-│  STATUS                              Production-ready core                   │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+build → break → understand → document → repeat
 ```
-
-<div align="right">
-
-[`→ View Repository`](https://github.com/vijaym2k6/NAVIRA)
-
-</div>
 
 </details>
 
-<details>
-<summary><b>▸ DroneGuard-AI</b> — Autonomous Drone Cybersecurity</summary>
+---
 
-<br/>
-
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  DroneGuard-AI — GPS Spoof Detection & Autonomous Defense                   │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  PROBLEM STATEMENT                                                           │
-│  ─────────────────                                                           │
-│  GPS spoofing attacks on drones can cause catastrophic navigation           │
-│  failures. Single-source verification is fundamentally vulnerable.          │
-│                                                                              │
-│  SOLUTION                                                                    │
-│  ────────                                                                    │
-│  Multi-sensor fusion system that cross-validates GPS signals against        │
-│  inertial, barometric, and visual data to detect and neutralize spoofing    │
-│  attempts in real-time.                                                      │
-│                                                                              │
-│  DETECTION PIPELINE                                                          │
-│  ──────────────────                                                          │
-│                                                                              │
-│     ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐                      │
-│     │   GPS   │  │  IMU    │  │  BARO   │  │ VISUAL  │                      │
-│     │ Signal  │  │ Accel   │  │ Sensor  │  │ Odom.   │                      │
-│     └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘                      │
-│          │            │            │            │                            │
-│          └────────────┴─────┬──────┴────────────┘                            │
-│                             ▼                                                │
-│               ┌─────────────────────────┐                                    │
-│               │    Fusion Validator     │                                    │
-│               │  ┌───────────────────┐  │                                    │
-│               │  │ Anomaly Detection │  │                                    │
-│               │  └───────────────────┘  │                                    │
-│               └────────────┬────────────┘                                    │
-│                            ▼                                                 │
-│          ┌─────────────────────────────────────┐                             │
-│          │  ALERT  │ SAFE OVERRIDE │  LOG ALL  │                             │
-│          └─────────────────────────────────────┘                             │
-│                                                                              │
-│  TECH                    Python · FastAPI · React · WebSocket · Real-time    │
-│  STATUS                  Functional demo with live visualization             │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-<div align="right">
-
-[`→ View Repository`](https://github.com/vijaym2k6/DroneGuard-AI)
-
-</div>
-
-</details>
-
-<details>
-<summary><b>▸ Jarvis Neural Interface</b> — Gesture-Controlled 3D Visualization</summary>
-
-<br/>
-
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  Jarvis Neural Interface — Hand Gesture Neural Network Control              │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  PROBLEM STATEMENT                                                           │
-│  ─────────────────                                                           │
-│  Traditional neural network visualizations are static and non-interactive.  │
-│  There's no intuitive way to explore network architecture spatially.        │
-│                                                                              │
-│  SOLUTION                                                                    │
-│  ────────                                                                    │
-│  A 3D neural network visualization that responds to hand gestures           │
-│  via MediaPipe, allowing natural exploration of network topology.           │
-│                                                                              │
-│  INTERACTION MODEL                                                           │
-│  ─────────────────                                                           │
-│                                                                              │
-│          ┌─────────────┐                                                     │
-│          │   CAMERA    │                                                     │
-│          │    FEED     │                                                     │
-│          └──────┬──────┘                                                     │
-│                 │                                                            │
-│                 ▼                                                            │
-│          ┌─────────────┐      ┌─────────────┐      ┌─────────────┐          │
-│          │  MediaPipe  │─────▶│   Gesture   │─────▶│   Three.js  │          │
-│          │   Hands    │      │   Mapper    │      │    Scene    │          │
-│          └─────────────┘      └─────────────┘      └─────────────┘          │
-│                                                            │                 │
-│     Gestures:                                              ▼                 │
-│     ✋ Open Palm  → Rotate View         ┌─────────────────────────┐         │
-│     ✊ Closed Fist → Select Node         │  3D Neural Network      │         │
-│     🤏 Pinch      → Zoom                 │  Visualization          │         │
-│     👆 Point      → Inspect Layer        └─────────────────────────┘         │
-│                                                                              │
-│  TECH                     React · Three.js · MediaPipe · WebGL              │
-│  STATUS                   Fully functional demo                              │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-<div align="right">
-
-[`→ View Repository`](https://github.com/vijaym2k6/Jarvis-Neural-Interface-AI)
-
-</div>
-
-</details>
-
-<details>
-<summary><b>▸ WasteVision-AI</b> — Real-Time Waste Classification</summary>
-
-<br/>
-
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  WasteVision-AI — YOLOv8 Waste Detection with DeepSORT Tracking             │
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  PROBLEM STATEMENT                                                           │
-│  ─────────────────                                                           │
-│  Manual waste sorting is inefficient and error-prone.                        │
-│  Existing systems lack real-time tracking for moving objects.               │
-│                                                                              │
-│  SOLUTION                                                                    │
-│  ────────                                                                    │
-│  Computer vision pipeline that detects, classifies, and tracks waste        │
-│  items in real-time using YOLOv8 for detection and DeepSORT for             │
-│  persistent object tracking across frames.                                   │
-│                                                                              │
-│  PROCESSING PIPELINE                                                         │
-│  ───────────────────                                                         │
-│                                                                              │
-│     Video Frame                                                              │
-│          │                                                                   │
-│          ▼                                                                   │
-│     ┌─────────────┐      ┌─────────────┐      ┌─────────────┐               │
-│     │   YOLOv8    │─────▶│  DeepSORT   │─────▶│ Classification│              │
-│     │  Detection  │      │  Tracking   │      │   Output     │              │
-│     └─────────────┘      └─────────────┘      └─────────────┘               │
-│           │                    │                     │                       │
-│           ▼                    ▼                     ▼                       │
-│     ┌─────────────────────────────────────────────────────┐                  │
-│     │  Object ID │ Bounding Box │ Class │ Confidence      │                  │
-│     │     001    │  [x,y,w,h]   │ PLASTIC│    0.94        │                  │
-│     │     002    │  [x,y,w,h]   │ METAL │    0.87        │                  │
-│     └─────────────────────────────────────────────────────┘                  │
-│                                                                              │
-│  TECH                            Python · YOLOv8 · DeepSORT · OpenCV        │
-│  STATUS                          Training complete, inference ready         │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-<div align="right">
-
-[`→ View Repository`](https://github.com/vijaym2k6/WasteVision-AI)
-
-</div>
-
-</details>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header"/>
-</div>
-
-<br/>
+## Metrics
 
 <div align="center">
 
-## `// OPERATING METRICS`
-
-<br/>
-
-<table>
-<tr>
-<td align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=vijaym2k6&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-
-</td>
-<td align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijaym2k6&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vijaym2k6&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=1f6feb&hide_border=true&custom_title=Contribution%20Timeline" width="95%" alt="Activity Graph"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vijaym2k6&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vijaym2k6&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" alt="Top Languages"/>
 
 </div>
 
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header"/>
-</div>
-
-<br/>
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                                         │
-│   ┌───────────────────────────────────────────────────────────────────────────────┐    │
-│   │                                                                               │    │
-│   │                            CURRENT TRAJECTORY                                 │    │
-│   │                                                                               │    │
-│   │      ○───────────○───────────○───────────○───────────○───────────●            │    │
-│   │      │           │           │           │           │           │            │    │
-│   │   Learning    Building    Shipping    GSoC 2026   Contributing  Next:        │    │
-│   │   Foundations  Projects   to Public   Preparation  to OSS       ???          │    │
-│   │                                                                               │    │
-│   └───────────────────────────────────────────────────────────────────────────────┘    │
-│                                                                                         │
-│                                                                                         │
-│   FOCUS AREAS                                                                           │
-│   ───────────                                                                           │
-│                                                                                         │
-│   ◆ Google Summer of Code 2026                                                          │
-│     → Targeting systems-level organizations with focus on AI tooling                   │
-│     → Building contribution history in relevant projects                                │
-│                                                                                         │
-│   ◆ Open Source Contributions                                                           │
-│     → Developer infrastructure and tooling                                              │
-│     → AI/ML ecosystem improvements                                                      │
-│                                                                                         │
-│   ◆ Building in Public                                                                  │
-│     → Shipping documented, reproducible systems                                         │
-│     → Writing about technical decisions and trade-offs                                  │
-│                                                                                         │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header"/>
-</div>
-
-<br/>
+---
 
 <div align="center">
 
-```
-                    ╔═══════════════════════════════════════╗
-                    ║                                       ║
-                    ║              CONNECT                  ║
-                    ║                                       ║
-                    ╚═══════════════════════════════════════╝
-```
+### Let's Build Something
+
+I'm interested in systems-level open source, AI safety, and developer infrastructure.
+
+If you're working on something that needs to scale past demos, let's talk.
 
 <br/>
 
-<a href="https://www.linkedin.com/in/vijay-m-7a0975346">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/>
-</a>
-&nbsp;&nbsp;
-<a href="mailto:vijaym2k6@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" height="28" alt="Email"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/vijaym2k6">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="28" alt="GitHub"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vijay-m-7a0975346)&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/vijaym2k6@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vijaym2k6@gmail.com)
 
-<br/><br/>
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=vijaym2k6&style=flat&color=1f6feb&labelColor=0d1117&label=visitors" alt="Profile Views"/>
-
-<br/><br/>
-
-```
-───────────────────────────────────────────────────────────────────────────────────────────
-                                                                                            
-  I care about correctness, safety, and systems that scale past demos.                      
-  If something ships, it should survive reality.                                            
-                                                                                            
-───────────────────────────────────────────────────────────────────────────────────────────
-```
+<img src="https://komarev.com/ghpvc/?username=vijaym2k6&style=flat-square&color=161b22&labelColor=0d1117&label=visitors" alt="Profile Views"/>
 
 </div>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=3&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer"/>
