@@ -236,28 +236,17 @@ Video → Detect → Track → Classify
 
 <br/>
 
-<table>
-<tr>
-<td align="center" width="25%">
-🔒<br/><b>Safety First</b><br/><sub>Risk before action</sub>
-</td>
-<td align="center" width="25%">
-🔍<br/><b>Explainability</b><br/><sub>No black boxes</sub>
-</td>
-<td align="center" width="25%">
-⚡<br/><b>Reliability</b><br/><sub>Survives edge cases</sub>
-</td>
-<td align="center" width="25%">
-📚<br/><b>Documentation</b><br/><sub>Or it doesn't exist</sub>
-</td>
-</tr>
-</table>
+![Safety First](https://img.shields.io/badge/🔒_SAFETY_FIRST-Risk_before_action-58a6ff?style=for-the-badge&labelColor=0d1117)&nbsp;&nbsp;
+![Explainability](https://img.shields.io/badge/🔍_EXPLAINABILITY-No_black_boxes-58a6ff?style=for-the-badge&labelColor=0d1117)
 
 <br/>
 
-```
-build → break → understand → document → repeat
-```
+![Reliability](https://img.shields.io/badge/⚡_RELIABILITY-Survives_edge_cases-58a6ff?style=for-the-badge&labelColor=0d1117)&nbsp;&nbsp;
+![Documentation](https://img.shields.io/badge/📚_DOCUMENTATION-Or_it_doesn't_exist-58a6ff?style=for-the-badge&labelColor=0d1117)
+
+<br/><br/>
+
+**`build → break → understand → document → repeat`**
 
 </div>
 
