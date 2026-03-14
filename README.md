@@ -61,9 +61,12 @@ Tools         Git  Linux  PyPI  npm  pytest
 
 ## Philosophy
 
-> *Build → Break → Understand → Document → Repeat*
+I believe every system should be **safe by design, not by accident**.
+No black boxes. No shortcuts that work until they don't.
 
-Safety first. No black boxes. Reliability over cleverness.
+If it can't explain its decisions, it can't be trusted.
+If it isn't documented, it doesn't exist.
+If it breaks under pressure, it wasn't ready.
 
 ---
 
