@@ -1,6 +1,10 @@
 <div align="center">
 
+<br>
+
 # Vijay M
+
+<br>
 
 **Systems Engineer · AI Infrastructure · Developer Tooling**
 
