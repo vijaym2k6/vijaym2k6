@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=72&duration=1&pause=99999&color=FFFFFF&center=true&vCenter=true&repeat=false&width=420&height=96&lines=Vijay+M" alt="Vijay M"/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=72&duration=3000&pause=2000&color=FFFFFF&center=true&vCenter=true&repeat=true&width=420&height=96&lines=Vijay+M" alt="Vijay M"/>
 
 **Systems Engineer · AI Infrastructure · Developer Tooling**
 
