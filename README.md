@@ -4,7 +4,7 @@
 
 **Systems Engineer · AI Infrastructure · Developer Tooling**
 
-B.Tech CSE (AI & ML) · GSoC 2026 Aspirant
+B.Tech CSE (AI & ML) · PES University
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vijay-m-7a0975346)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vijaym2k6@gmail.com)
@@ -20,7 +20,7 @@ I build systems that survive reality. Not demos.
 
 My work sits at the intersection of **autonomous AI agents**, **real-time perception**, and **backend infrastructure**. I care deeply about reliability, explainability, and systems that hold up under pressure.
 
-Currently preparing for **GSoC 2026** and contributing to open-source AI tooling.
+Currently building open-source AI tooling and shipping production systems.
 
 ---
 
